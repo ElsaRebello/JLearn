@@ -42,5 +42,11 @@ public class ComparisonOp {
         System.out.println(hasHighInc);
 
         System.out.println( "---IF STATEMENTS-TERNARY OP---" );
+
+        int inc = 120_000;
+        String className = inc > 100_000 ? "First" : "Economy";
+
+        System.out.println(className);
+
     }
 }
