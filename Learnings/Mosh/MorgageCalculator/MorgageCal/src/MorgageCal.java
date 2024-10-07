@@ -2,7 +2,7 @@ import java.text.NumberFormat;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class App {
+public class MorgageCal {
     @SuppressWarnings("resource")
     public static void main(String[] args) throws Exception {
         //System.out.println("Hello, World!");
