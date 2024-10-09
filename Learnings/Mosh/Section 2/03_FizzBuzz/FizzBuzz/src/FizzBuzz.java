@@ -6,7 +6,7 @@ public class FizzBuzz {
         System.out.print("Enter the number: ");
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
-        String output;
+        //String output;
 
         if (number % 5 == 0 && number % 3 == 0) {
             System.out.println("FizzBuzz");
@@ -20,5 +20,7 @@ public class FizzBuzz {
         else {
             System.out.println(number);
         }
+
+        sc.close();
     }
 }
